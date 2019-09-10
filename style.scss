@@ -1,0 +1,35 @@
+.wrp {
+    display: flex;
+    justify-content: center;
+	& > ul {
+		display: block;
+	}
+	ul {
+        padding: 0;
+        display: flex;
+        padding: 0;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin: 10px;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .error {
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+}
